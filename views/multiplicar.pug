@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  head
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+    h1 Tabla de multiplicar
+    form(action='/multiplicar/operacion' method='POST')
+        div
+            label(for='') &iquest;Base de la multiplicación?
+            input#base(type='text' name='base')
+        input(type='submit' value='Enviar')
+    

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+ head
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body
+    .container
+        .modal(tabindex='-1')
+            .modal-dialog
+                .modal-content
+                .modal-header
+                    h5.modal-title MiModal
+                    button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
+                .modal-body
+                    p Esto es un modal muy divertido.
+                .modal-footer
+                    button.btn.btn-secondary(type='button' data-bs-dismiss='modal') Cerrar
+                    button.btn.btn-primary(type='button') Guardar

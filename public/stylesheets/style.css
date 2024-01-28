@@ -1,0 +1,15 @@
+body{
+  background-color: rgb(103, 111, 219);
+  color:blue;
+  color: gainsboro;
+}
+
+h1{
+  padding: 30px 0 0 0;
+  color: white;
+}
+
+label{
+  padding-right: 7px;
+  padding-bottom: 12px;
+}

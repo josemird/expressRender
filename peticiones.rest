@@ -1,0 +1,6 @@
+GET http://localhost:3000/operaciones
+###
+GET http://localhost:3000/operaciones/multiplicar
+###
+GET http://localhost:3000/operaciones/quiniela
+###
